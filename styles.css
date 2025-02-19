@@ -255,28 +255,13 @@ a{
 
 }
 
-.imgCT1 {
-    background-color: #c10000;
-    height:180px;
-    width: 100%;
-    border-radius: 10px;
-    background-image: url('img/python.png');
-    background-position: center;
-    background-size: cover;
-
-}
-
-.imgCT1:hover{
-    background-color: #000000;
-    background-image: none;
-}
 
 .nulo {
     opacity: 0;
     /* Começa invisível */
     visibility: hidden;
     /* Impede que o elemento ocupe espaço */
-  
+    
     margin-top: 200PX;
     
     color: white;
@@ -300,10 +285,25 @@ a{
     /* Transições suaves */
 }
 
+.imgCT1 {
+    background-color: #c10000;
+    height:180px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url('img/python.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imgCT2,.imgCT3,.imgCT4,.imgCT5:hover{
+    background-color: #000000;
+    background-image: none;
+}
 .imgCT2 {
     height: 180px;
     width: 100%;
-    background-image: url('img/js.png');
+    background-image: url('img/JAVASCRIPT.png');
     background-position: bottom;
     background-size: cover;
     border-radius: 20px;
@@ -323,11 +323,19 @@ a{
     height: 180px;
     width: 100%;
     border-radius: 10px;
-    background-image: url('img/htmlcss.png');
+    background-image: url('img/HTML.png');
     background-position: center;
     background-size: cover;
 }
 
+.imgCT5 {
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url('img/CSS.png');
+    background-position: center;
+    background-size: cover;
+}
 .p-ul {
     text-align: center;
     font-size: 18px;
