@@ -235,25 +235,16 @@ a{
 /*Habilidades*/
 
 .cartoes {
-    background-color: #109e00;
+    background-color: #109e0000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
-    height: 500px;
-    width: 100%;
-  
-}
-
-.cart {
-    background-color: #1877f2;
-    position: relative;
     height: auto;
-    width: 300px;
-    
-
-
+    gap: 20px;
+    width: 90%;
 }
+
 
 
 .nulo {
@@ -261,11 +252,9 @@ a{
     /* Começa invisível */
     visibility: hidden;
     /* Impede que o elemento ocupe espaço */
-    
-    margin-top: 200PX;
-    
     color: white;
     padding: 10px;
+    text-align: left;
     font-size: large;
     line-height: 1.3;
     transform: translateY(20px);
@@ -274,7 +263,7 @@ a{
     /* Transições suaves */
 }
 
-.cart:hover .nulo {
+.imgCT1:hover .nulo {
     opacity: 1;
     /* Torna o texto visível */
     visibility: visible;
@@ -285,57 +274,122 @@ a{
     /* Transições suaves */
 }
 
+.imgCT2:hover .nulo {
+    opacity: 1;
+    /* Torna o texto visível */
+    visibility: visible;
+    /* Permite que o elemento ocupe espaço */
+    transform: translateY(0);
+    /* Move o texto para sua posição original */
+    transition: opacity 0.5s ease, transform 1s ease;
+    /* Transições suaves */
+}
+
+.imgCT3:hover .nulo {
+    opacity: 1;
+    /* Torna o texto visível */
+    visibility: visible;
+    /* Permite que o elemento ocupe espaço */
+    transform: translateY(0);
+    /* Move o texto para sua posição original */
+    transition: opacity 0.5s ease, transform 1s ease;
+    /* Transições suaves */
+}
+
+.imgCT4:hover .nulo {
+    opacity: 1;
+    /* Torna o texto visível */
+    visibility: visible;
+    /* Permite que o elemento ocupe espaço */
+    transform: translateY(0);
+    /* Move o texto para sua posição original */
+    transition: opacity 0.5s ease, transform 1s ease;
+    /* Transições suaves */
+}
+
+.imgCT5:hover .nulo {
+    opacity: 1;
+    /* Torna o texto visível */
+    visibility: visible;
+    /* Permite que o elemento ocupe espaço */
+    transform: translateY(0);
+    /* Move o texto para sua posição original */
+    transition: opacity 0.5s ease, transform 1s ease;
+    /* Transições suaves */
+}
+
+
+
+.imgCT1,
+.imgCT2,
+.imgCT3,
+.imgCT4,
+.imgCT5{
+    width: 180px;
+    height: 180px;
+}
+
 .imgCT1 {
-    background-color: #c10000;
-    height:180px;
-    width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     background-image: url('img/python.png');
     background-position: center;
     background-size: cover;
 
 }
 
-.imgCT2,.imgCT3,.imgCT4,.imgCT5:hover{
+.imgCT1:hover{
     background-color: #000000;
     background-image: none;
 }
+
 .imgCT2 {
-    height: 180px;
-    width: 100%;
     background-image: url('img/JAVASCRIPT.png');
     background-position: bottom;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
+.imgCT2:hover{
+    background-color: #000000;
+    background-image: none;
+}
 
 .imgCT3 {
-    height: 180px;
-    width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     background-image: url('img/sql.png');
     background-position: center;
     background-size: cover;
 }
 
+.imgCT3:hover{
+    background-color: #000000;
+    background-image: none;
+}
+
 .imgCT4 {
-    height: 180px;
-    width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     background-image: url('img/HTML.png');
     background-position: center;
     background-size: cover;
 }
 
+.imgCT4:hover{
+    background-color: #000000;
+    background-image: none;
+}
+
 .imgCT5 {
-    height: 180px;
-    width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     background-image: url('img/CSS.png');
     background-position: center;
     background-size: cover;
 }
+
+.imgCT5:hover{
+    background-color: #000000;
+    background-image: none;
+}
+
 .p-ul {
     text-align: center;
     font-size: 18px;
@@ -578,6 +632,25 @@ footer {
    header{
     height: 0;
    }
+
+    .imgCT1,
+    .imgCT2,
+    .imgCT3,
+    .imgCT4,
+    .imgCT5{
+    width: 140px;
+    height: 140px;
+}
+
+.nulo {
+    font-size: medium;
+    line-height: 1.2;
+}
+
+.imgCT4:active{
+    background-color: #000000;
+    background-image: none;
+}
 }
 
 @media (max-width: 680px) {
