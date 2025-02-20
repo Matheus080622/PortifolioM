@@ -1,55 +1,25 @@
-function randomPosition() {
-    const x = Math.random() * window.innerWidth;
-    return x; // Apenas a posição horizontal é necessária para as estrelas cadentes
+function createStar() {
+    const star = document.createElement('div');
+    star.className = 'star';
+
+    // Define a posição horizontal aleatória
+    const posX = Math.random() * window.innerWidth;
+    star.style.left = `${posX}px`;
+
+    // Define um tempo de animação aleatória
+    const duration = Math.random() * 1 + 3; // Entre 3 e 5 segundos
+    star.style.animationDuration = `${duration}s`;
+
+    document.body.appendChild(star);
+
+    // Remove a estrela após a animação para evitar acúmulo de elementos
+    star.addEventListener('animationend', () => {
+        star.remove();
+    });
 }
 
-function createStars(numStars) {
-    const sky = document.querySelector('.sky');
-
-    for (let i = 0; i < numStars; i++) {
-        const star = document.createElement('div');
-        star.classList.add('star');
-
-        const x = randomPosition();
-        star.style.width = `${Math.random() * 3 + 2}px`;
-        star.style.height = star.style.width; // Mantém a proporção circular
-        star.style.left = `${x}px`;
-        
-        // Inicia as estrelas acima da tela
-        star.style.top = `${Math.random() * -100}px`; // Começa acima da tela
-
-        // Animação de aproximação
-        const speed = Math.random() * 10 + 2; // Velocidade aleatória
-        setInterval(() => {
-            const newY = parseFloat(star.style.top) + speed;
-            if (newY > window.innerHeight + 100) { // Reinicia quando sai da tela
-                star.style.top = `${Math.random() * -100}px`; // Reinicia a posição vertical
-                star.style.left = `${randomPosition()}px`; // Reinicia a posição horizontal
-            } else {
-                star.style.top = `${newY}px`;
-            }
-        }, 22);
-
-        // Animação de brilho
-        star.style.animation = `twinkle ${Math.random() * 5 + 1}s infinite`;
-
-        // Adiciona a estrela ao contêiner
-        sky.appendChild(star);
-
-        // Adiciona o efeito de estrela cadente aleatoriamente
-        if (Math.random() < 0.1) { // Aproximadamente 10% das estrelas serão cadentes
-            setTimeout(() => {
-                star.classList.add('cadente'); // Adiciona a classe cadente
-                setTimeout(() => {
-                    star.remove(); // Remove a estrela após a animação
-                }, 1000); // Tempo da animação de queda
-            }, Math.random() * 3000); // Inicia a animação em um tempo aleatório
-        }
-    }
-}
-
-// Chame a função com um número maior de estrelas
-createStars(68); // Altere esse número para aumentar ou diminuir a quantidade de estrelas
+// Chama a função createStar em intervalos regulares
+setInterval(createStar, 100); // Cria uma nova estrela a cada 300ms
 
 
 function smoothScroll(target, duration) {
