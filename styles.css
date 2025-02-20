@@ -6,6 +6,10 @@
     text-align: justify;
 }
 
+main{
+    margin: auto;
+}
+
 body {
     margin: 0;
     background: linear-gradient(0deg, rgba(6, 19, 36, 1) 0%, rgba(0, 0, 0, 1) 100%);
