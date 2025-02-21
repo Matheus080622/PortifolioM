@@ -6,12 +6,8 @@
     text-align: justify;
 }
 
-main{
-    margin: auto;
-}
 
 body {
-    margin: 0;
     background: linear-gradient(0deg, rgba(6, 19, 36, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 /*Inicio das estrelas*/
@@ -83,21 +79,17 @@ li {
 
 .sobre {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    width: 100%;
-    
-    height: auto;
-    background-color: #109e00;
+    margin: auto;
+    width: 90%;
+    background-color: #9e4a00;
 }
 
 .Home {
     background-color: #00096d;
-    height: auto;
+
     width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
 }
 
 .img-principal {
@@ -105,8 +97,8 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #1877f2;
     
 }
@@ -155,6 +147,7 @@ li {
 
 /*Inicio de PROJETOS*/
 .container-card{
+    margin: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -609,7 +602,7 @@ margin: auto;
 }
 footer {
     text-align: center;
-    margin-top: 17%;
+    margin-top: 5%;
     padding-bottom: 20px;
 }
 
@@ -648,15 +641,6 @@ footer {
         width: 80%;
     }
 
-    .sobre{
-        gap: 20px;
-        display: flex;
-        margin: auto;
-        margin-top: 10px;
-        flex-direction: column-reverse; 
-        align-items: center;
-    }
-
   
     .Home{
         width: 95%;
@@ -685,9 +669,7 @@ footer {
     .P {
         font-size: 18px;
     }
-    .Home{
-        width: 100%;
-    }
+  
 }
 
 @media (min-width:681px) and (max-width: 860px) {
@@ -695,9 +677,7 @@ footer {
         width: 75%;
     }
     
-    .sobre{
-        margin-top: 10%;
-    }
+    
 
     .Home {
         height: auto;
