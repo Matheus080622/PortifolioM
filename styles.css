@@ -79,7 +79,7 @@ li {
 
 .sobre {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
     width: 90%;
     background-color: #9e4a00;
