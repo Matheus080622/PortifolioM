@@ -124,21 +124,21 @@ p{
 }
 
 #foto1{
-    background-image: url('../img/jmmotopecas/parte1.png');
+    background-image: url('img/jmmotopecas/parte1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto2{
-    background-image: url('../img/jmmotopecas/parte2.png');
+    background-image: url('/img/jmmotopecas/parte2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto3{
-    background-image: url('../img/jmmotopecas/parte3.png');
+    background-image: url('/img/jmmotopecas/parte3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
