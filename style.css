@@ -182,15 +182,21 @@ h1{
 }
 
 #img1{
-    background-image: url('./img/jmmotopecas/parte1.png');
+    background-image: url('img/jmmotopecas/parte1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #img2{
-    background-image: url('./img/Screenshot\ 2025-02-25\ at\ 20-47-49\ Rei\ da\ Cozinha.png');
+    background-image: url('img/TELAINDEXreceitas.png');
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img3{
+    background-image: url('img/TELAINDEXland.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
