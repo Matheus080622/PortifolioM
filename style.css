@@ -98,12 +98,12 @@ a:hover{
 }
 
 .imgfoto{
-    background-image: url('img/fundo.png');
+    background-image: url('img/perfil.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
     width: 40%;
-    height: auto;
+    height: 250px;
 }
 .titu{
     font-size: 25px;
@@ -182,12 +182,18 @@ h1{
 }
 
 #img1{
-    background-image: url('../img/jmmotopecas.png');
+    background-image: url('./img/jmmotopecas/parte1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#img2{
+    background-image: url('./img/Screenshot\ 2025-02-25\ at\ 20-47-49\ Rei\ da\ Cozinha.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .descr{
 
     margin-left: 5%;
@@ -639,7 +645,7 @@ nav{
     width: 90%; 
     margin-top: 20px; 
     
-    background-image: url('img/fundo.png');
+    background-image: url('img/perfil.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
