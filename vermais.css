@@ -124,63 +124,63 @@ p{
 }
 
 #foto1{
-    background-image: url('img/jmmotopecas/parte1.png');
+    background-image: url('../img/jmmotopecas/parte1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto2{
-    background-image: url('img/jmmotopecas/parte2.png');
+    background-image: url('../img/jmmotopecas/parte2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto3{
-    background-image: url('img/jmmotopecas/parte3.png');
+    background-image: url('../img/jmmotopecas/parte3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto4{
-    background-image: url('img/jmmotopecas/parte4.png');
+    background-image: url('../img/jmmotopecas/parte4.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto5{
-    background-image: url('img/jmmotopecas/parte5.png');
+    background-image: url('../img/jmmotopecas/parte5.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto6{
-    background-image: url('img/jmmotopecas/parte6.png');
+    background-image: url('../img/jmmotopecas/parte6.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto7{
-    background-image: url('img/jmmotopecas/parte7.png');
+    background-image: url('../img/jmmotopecas/parte7.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto8{
-    background-image: url('img/jmmotopecas/parte8.png');
+    background-image: url('../img/jmmotopecas/parte8.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #foto9{
-    background-image: url('img/jmmotopecas/parte9.png');
+    background-image: url('../img/jmmotopecas/parte9.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,60 +189,89 @@ p{
 
 /*Inicio site de receitas*/
 #fot1{
-    background-image: url('img/receitas/fot1.png');
+    background-image: url('../img/receitas/fot1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fot2{
-    background-image: url('img/receitas/fot2.png');
+    background-image: url('../img/receitas/fot2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fot3{
-    background-image: url('img/receitas/fot3.png');
+    background-image: url('../img/receitas/fot3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fot4{
-    background-image: url('img/receitas/fot4.png');
+    background-image: url('../img/receitas/fot4.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fot5{
-    background-image: url('img/receitas/fot5.png');
+    background-image: url('../img/receitas/fot5.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fot6{
-    background-image: url('img/receitas/fot6.png');
+    background-image: url('../img/receitas/fot6.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fot7{
-    background-image: url('img/receitas/fot7.png');
+    background-image: url('../img/receitas/fot7.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fot8{
-    background-image: url('img/receitas/fot8.png');
+    background-image: url('../img/receitas/fot8.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#fo1{
+    background-image: url('img/land/fo1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fo2{
+    background-image: url('img/land/fo2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fo3{
+    background-image: url('img/land/fo3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fo4{
+    background-image: url('img/land/fo4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .setadevoltar{
     transition: all .3s;
