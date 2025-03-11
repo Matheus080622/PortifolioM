@@ -245,33 +245,46 @@ p{
 }
 
 #fo1{
-    background-image: url('img/land/fo1.png');
+    background-image: url('img/Screenshot\ 2025-03-11\ at\ 18-11-30\ Leila\ Noivas\ -\ Login.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fo2{
-    background-image: url('img/land/fo2.png');
+    background-image: url('img/leila/1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fo3{
-    background-image: url('img/land/fo3.png');
+    background-image: url('img/leila/2.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
 }
 
 #fo4{
-    background-image: url('img/land/fo4.png');
+    background-image: url('img/leila/3.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
+#fo5{
+    background-image: url('img/leila/4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fo6{
+    background-image: url('img/leila/5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 .setadevoltar{
     transition: all .3s;

@@ -200,6 +200,13 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#img4{
+    background-image: url('img/Screenshot\ 2025-03-11\ at\ 18-11-30\ Leila\ Noivas\ -\ Login.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .descr{
 
     margin-left: 5%;
