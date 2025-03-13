@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../vermais.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Formulario</title>
+</head>
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+   <header>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a id="hom" href="#home">Home</a></li>
+            <li id="func"><a href="#acao">Ação</a></li>
+            <li id="func"><a href="#resultado">Resultado</a></li>
+            <li id="gale"><a href="#imgs">Galeria</a></li>
+            <li id="func"><a href="#conclusao">Conclusão</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="home">
+        <h1>Formulário de Cadastro com API</h1>
+        <a href="../index.html"><button class="setadevoltar"><svg style="padding-top:8px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+          </svg></button></a>
+        <div class="situacao" >
+            <h2>Situação</h2>
+            <p>
+                Eu buscava aprofundar meus conhecimentos em desenvolvimento web full-stack, focando em Node.js, APIs RESTful, MongoDB e React.
+Sentia a necessidade de um projeto prático para consolidar o aprendizado desses conceitos.
+            </p>
+        </div>
+    </section>
+    <section id="tarefa">
+        <h2>Tarefa</h2>
+        <p>Meu objetivo era desenvolver uma API RESTful completa para gerenciamento de usuários, com funcionalidades CRUD (Criar, Ler, Atualizar e Deletar).
+            Além disso, queria criar um frontend interativo em React para consumir a API.</p>
+    </section>
+    <section id="acao">
+        <h2>Ação</h2>
+        <p>Dividi o projeto em duas partes: backend e frontend.</p>
+        <h3>Backend (Node.js):</h3>
+        <p> -- Utilizei Node.js e Express.js para criar a API RESTful.
+        </p>
+        <p> -- Escolhi o MongoDB como banco de dados NoSQL.
+        </p>
+        <p> -- Usei o Mongoose para facilitar a interação com o MongoDB.
+        </p>
+        <p> -- Implementei endpoints para operações CRUD:
+        </p>
+        <p>------ POST /users: Cria um novo usuário.</p>
+        <p>------ GET /users: Lista todos os usuários.</p>
+        <p>------ DELETE /users/:id: Deleta um usuário específico.</p>
+        <p> -- Realizei validação de dados e lógica de negócios no backend.
+        </p>
+    
+        <h3>Frontend (React):</h3>
+        <p> -- Desenvolvi uma interface de usuário interativa com React.
+        </p>
+        <p> -- Consumi a API RESTful do backend para realizar as operações CRUD.
+        </p>
+        <p> -- Criei um formulário de cadastro e uma lista para exibir os usuários.</p>
+        <p> -- Implementei botões de exclusão para cada usuário na lista.</p>
+        <h3>Fluxo de Funcionamento: </h3>
+        <p>Cadastro: O frontend envia dados para o backend, que valida e salva no MongoDB.</p>
+        <p>Listagem: O frontend requisita a lista de usuários do backend e exibe na tela.</p>
+        <p>Exclusão: O frontend envia uma requisição para o backend, que remove o usuário do MongoDB.</p>
+    </section>
+    <section id="resultado">
+        <h2>Resultado</h2>
+        <p> -- O projeto me permitiu consolidar conhecimentos em: 
+        </p>
+        <p> ------ Desenvolvimento de APIs RESTful com Node.js e Express.js.
+        </p>
+        <p> ------ Integração de frontend com backend.
+        </p>
+        <p> ------ Utilização do MongoDB como banco de dados NoSQL.
+        </p>
+        <p> ------ Manipulação de dados com Mongoose.
+        </p>
+        <p> ------ Desenvolvimento de interfaces de usuário com React.
+        </p>
+        <p> ------ Conceitos básicos de CRUD.
+        </p>
+        <p> -- O projeto serviu como uma base sólida para aprofundar meu conhecimento em desenvolvimento web full-stack.
+        </p>
+        <p>--  O resultado final foi um sistema funcional, que possibilita a criação, leitura e exclusão de usuários, de forma interativa.</p>
+    </section>
+    
+    <section id="imgs" >
+        <div class="imagens">
+            <div class="imagensdosite" id="a1"></div>
+            <div class="imagensdosite" id="a2"></div>
+            <div class="imagensdosite" id="a3"></div>
+            <div class="imagensdosite" id="a4"></div>
+            <div class="imagensdosite" id="a5"></div>
+            <div class="imagensdosite" id="a6"></div>
+        </div>
+    </section>
+    <section id="conclusao">
+        <h2>Conclusão</h2>
+        <p>
+            A divisão do projeto em backend e frontend demonstra uma boa prática de arquitetura de software.
+O uso de tecnologias modernas como Node.js, MongoDB e React demonstra minha atualização com as tendências do mercado.
+A explicação do fluxo de funcionamento torna o projeto de fácil entendimento.
+        </p>
+    </section>
+</main>
+<footer>
+    &copy; 2024 - Matheus Richard
+</footer>
+<script src="../js/script.js"></script> 
+</body>
+</html> 
