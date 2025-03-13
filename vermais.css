@@ -122,7 +122,9 @@ p{
     height: 400px;
     box-shadow: 5px 5px  10px #0723ac54 ;
 }
- /**/
+ /*==================
+     SISTEMA CRUD JM
+   ==================*/
 #foto1{
     background-image: url('img/jmmotopecas/parte1.png');
     background-position: center;
@@ -185,9 +187,10 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*----- Fim da land page oficina*/
 
-/*Inicio site de receitas*/
+/*=================================
+            RECEITAS  
+=================================*/
 #fot1{
     background-image: url('img/receitas/fot1.png');
     background-position: center;
@@ -244,6 +247,9 @@ p{
     background-size: cover;
 }
 
+/*=======================
+        LEILA NOIVAS
+  =======================*/
 #fo1{
     background-image: url('img/Screenshot\ 2025-03-11\ at\ 18-11-30\ Leila\ Noivas\ -\ Login.png');
     background-position: center;
