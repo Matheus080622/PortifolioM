@@ -78,7 +78,7 @@ nav {
 }
 
 a:hover{
-    color: rgb(60, 58, 192);
+    color: rgb(31, 28, 166);
 }
 /*Fim de navegação*/
 
@@ -123,7 +123,7 @@ a:hover{
       width: 0;
   }
   to {
-      width: 50%;
+      width: 100%;
   }
 }
 
@@ -363,13 +363,24 @@ a{
     /* Transições suaves */
 }
 
+.imgCT6:hover .nulo {
+    opacity: 1;
+    /* Torna o texto visível */
+    visibility: visible;
+    /* Permite que o elemento ocupe espaço */
+    transform: translateY(0);
+    /* Move o texto para sua posição original */
+    transition: opacity 0.5s ease, transform 1s ease;
+    /* Transições suaves */
+}
 
 
 .imgCT1,
 .imgCT2,
 .imgCT3,
 .imgCT4,
-.imgCT5{
+.imgCT5,
+.imgCT6{
     width: 180px;
     height: 180px;
 }
@@ -431,6 +442,18 @@ a{
 }
 
 .imgCT5:hover{
+    background-color: #000000;
+    background-image: none;
+}
+
+.imgCT6 {
+    border-radius: 5px;
+    background-image: url('img/REACT.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.imgCT6:hover{
     background-color: #000000;
     background-image: none;
 }
