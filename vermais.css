@@ -105,6 +105,11 @@ p{
     margin: auto;
 }
 
+mark {
+    background-color: rgba(176, 176, 2, 0.568);
+}
+  
+
 .imagens{
     padding: 15px;
     display: flex;
