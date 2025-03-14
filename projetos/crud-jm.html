@@ -74,9 +74,40 @@
         <section id="acao">
             <h2>Detalhamento do Desenvolvimento do Sistema de Estoque</h2>
             <h2>Planejamento e Análise de Requisitos:</h2>
-            <p><mark><strong>Entendimento das necessidades</strong>:</mark> O primeiro passo foi uma imersão na realidade da oficina. Entrevistei os funcionários para entender o fluxo de trabalho atual, os problemas enfrentados com o sistema manual e as funcionalidades desejadas no novo sistema.</p>
-            <p><mark><strong>Definição das funcionalidades:</strong></mark> Com base nas informações coletadas, defini as principais funcionalidades do sistema: Cadastro de peças (nome, código, descrição, fornecedor, etc.), Controle de entrada e saída de peças, Consulta de estoque em tempo real, Geração de relatórios (estoque mínimo, peças mais vendidas, etc.), Interface intuitiva e fácil de usar.</p>
-            
+            <p><mark><strong>Entendimento das necessidades</strong>:</mark> O primeiro passo foi uma imersão na
+                realidade da oficina. Entrevistei os funcionários para entender o fluxo de trabalho atual, os problemas
+                enfrentados com o sistema manual e as funcionalidades desejadas no novo sistema.</p>
+            <p><mark><strong>Definição das funcionalidades:</strong></mark> Com base nas informações coletadas, defini
+                as principais funcionalidades do sistema: Cadastro de peças (nome, código, descrição, fornecedor, etc.),
+                Controle de entrada e saída de peças, Consulta de estoque em tempo real, Geração de relatórios (estoque
+                mínimo, peças mais vendidas, etc.), Interface intuitiva e fácil de usar.</p>
+            <p><strong><mark>Modelagem do banco de dados:</mark></strong> Criei um esquema do banco de dados MongoDB,
+                definindo as coleções (tabelas) e os campos necessários para armazenar as informações das peças e do
+                estoque.</p>
+            <h2> Desenvolvimento do Back-end (Node.js com Express):</h2>
+            <p> <strong><mark>Criação da API RESTful:</mark></strong> Utilizei o Express para criar uma API RESTful que
+                permite a comunicação entre o front-end e o banco de dados.</p>
+            <p> <strong><mark>Rotas da API:</mark></strong>Defini as rotas da API para cada funcionalidade do sistema
+                (cadastro, consulta, etc.).</p>
+            <p> <strong><mark>Lógica de negócios:</mark></strong>Implementei a lógica de negócios no back-end, como
+                validação de dados, cálculo de estoque e geração de relatórios. </p>
+            <p> <strong><mark>Conexão com o banco de dados:</mark></strong> Configurei a conexão com o banco de dados
+                MongoDB utilizando o driver</p>
+            <h2>Desenvolvimento do Front-end (React):</h2>
+            <p><strong><mark>Criação da interface do usuário:</mark></strong> Utilizei o React para criar uma interface
+                de usuário interativa e responsiva, com formulários para cadastro de peças, tabelas para consulta de
+                estoque e gráficos para visualização de relatórios.</p>
+
+            <p><strong><mark>Comunicação com a API:</mark></strong> Implementei a comunicação com a API RESTful
+                utilizando a biblioteca `axios`, para enviar e receber dados do back-end.</p>
+
+            <p><strong><mark>Gerenciamento de estado:</mark></strong> Utilize o gerenciador de estado do React, ou uma
+                biblioteca de gerenciamento de estado como o Redux ou Context API, para gerenciar o estado da aplicação
+                e garantir a consistência dos dados.</p>
+
+            <p><strong><mark>Design responsivo:</mark></strong> Garanti que a interface do usuário seja responsiva e se
+                adapte a diferentes dispositivos (computadores, tablets, smartphones).</p>
+
         </section>
         <section id="resultado">
             <h2>Resultado</h2>
