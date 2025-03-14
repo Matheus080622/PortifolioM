@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,96 +8,118 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>JM motopeças</title>
 </head>
+
 <body>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
-   <header>
-    <nav class="navbar">
-        <ul class="menu">
-            <li><a id="hom" href="#home">Home</a></li>
-            <li id="func"><a href="#acao">Ação</a></li>
-            <li id="func"><a href="#resultado">Resultado</a></li>
-            <li id="gale"><a href="#imgs">Galeria</a></li>
-            <li id="func"><a href="#conclusao">Conclusão</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <section id="home">
-        <h1>Sistema de Estoque para a oficina JM motopeças (com uso de APIRest)</h1>
-        <a href="../index.html"><button class="setadevoltar"><svg style="padding-top:8px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-arrow-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
-          </svg></button></a>
-        <div class="situacao" >
-            <h2>Situação encontrada</h2>
-            <p>
-                A oficina em questão enfrentava um grande desafio no controle de seu estoque de peças. O método utilizado era manual, com anotações em papel, o que frequentemente resultava em erros, perdas e dificuldades na gestão do inventário. A falta de um sistema eficiente impedia a oficina de ter uma visão clara do estoque disponível, impactando negativamente a tomada de decisões e o atendimento aos clientes.
+    <header>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a id="hom" href="#home">Home</a></li>
+                <li id="func"><a href="#acao">Ação</a></li>
+                <li id="func"><a href="#resultado">Resultado</a></li>
+                <li id="gale"><a href="#imgs">Galeria</a></li>
+                <li id="func"><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Sistema de Estoque para a oficina JM motopeças (com uso de APIRest)</h1>
+            <a href="../index.html"><button class="setadevoltar"><svg style="padding-top:8px;"
+                        xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-arrow-left"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg></button></a>
+            <div class="situacao">
+                <h2>Situação encontrada</h2>
+                <p>
+                    A oficina em questão enfrentava um grande desafio no controle de seu estoque de peças. O método
+                    utilizado era manual, com anotações em papel, o que frequentemente resultava em erros, perdas e
+                    dificuldades na gestão do inventário. A falta de um sistema eficiente impedia a oficina de ter uma
+                    visão clara do estoque disponível, impactando negativamente a tomada de decisões e o atendimento aos
+                    clientes.
+                </p>
+            </div>
+        </section>
+        <section id="tarefa">
+            <h2>Tarefa</h2>
+            <p>Diante desse cenário, a tarefa era desenvolver um sistema de estoque digital que permitisse à oficina
+                registrar e gerenciar suas peças de forma eficiente e precisa. O sistema deveria ser intuitivo, fácil de
+                usar e acessível a todos os funcionários, eliminando a necessidade de anotações em papel e
+                proporcionando uma visão clara do estoque em tempo real.</p>
+        </section>
+        <section id="acao">
+            <h2>Ação</h2>
+            <h3>Para solucionar o problema, desenvolvi um sistema de estoque completo utilizando as seguintes
+                tecnologias:</h3>
+            <h3>Back-end:</h3>
+            <p> -- Node.js com Express para a criação da API RESTful, responsável por gerenciar a lógica do sistema e a
+                comunicação com o banco de dados.
             </p>
-        </div>
-    </section>
-    <section id="tarefa">
-        <h2>Tarefa</h2>
-        <p>Diante desse cenário, a tarefa era desenvolver um sistema de estoque digital que permitisse à oficina registrar e gerenciar suas peças de forma eficiente e precisa. O sistema deveria ser intuitivo, fácil de usar e acessível a todos os funcionários, eliminando a necessidade de anotações em papel e proporcionando uma visão clara do estoque em tempo real.</p>
-    </section>
-    <section id="acao">
-        <h2>Ação</h2>
-        <h3>Para solucionar o problema, desenvolvi um sistema de estoque completo utilizando as seguintes tecnologias:</h3>
-        <h3>Back-end:</h3>
-        <p> -- Node.js com Express para a criação da API RESTful, responsável por gerenciar a lógica do sistema e a comunicação com o banco de dados.
-        </p>
-        <h3>Banco de dados:</h3>
-        <p> -- MongoDB, um banco de dados NoSQL flexível e escalável, ideal para armazenar as informações das peças e do estoque.
-        </p>
-        <h3>Front-end:</h3>
-        <p> -- React, uma biblioteca JavaScript para a criação de interfaces de usuário interativas e responsivas, permitindo que os funcionários da oficina acessem e utilizem o sistema de forma intuitiva.
-        </p>
-        <h3>Comunicação:</h3>
-        <p> --  API RESTful, que permite a comunicação eficiente entre o front-end e o back-end, garantindo a troca de dados em tempo real.
-        </p>
-        <h2>Detalhamento do Desenvolvimento do Sistema de Estoque</h2>
-        <h3> Planejamento e Análise de Requisitos:</h3>
-        <p><strong>Entendimento das necessidades:</strong> O primeiro passo foi uma imersão na realidade da oficina. Entrevistei os funcionários para entender o fluxo de trabalho atual, os problemas enfrentados com o sistema manual e as funcionalidades desejadas no novo sistema.</p>
-    </section>
-    <section id="resultado">
-        <h2>Resultado</h2>
-        <h3>Organização:</h3>
-        <p> -- O estoque da oficina foi organizado de forma clara e eficiente, com as peças categorizadas e informações precisas sobre a quantidade disponível.
-        </p>
-        <h3>Eficiência:</h3>
-        <p> -- O tempo gasto na consulta de informações sobre o estoque foi significativamente reduzido, permitindo um atendimento mais ágil e eficiente aos clientes.
-        </p>
-        <h3>Redução de Erros:</h3>
-        <p> -- A substituição do sistema manual por um sistema digital minimizou erros de digitação e cálculo, garantindo a precisão das informações sobre o estoque.
-        </p>
-        <h3>Tomada de Decisão:</h3>
-        <p>--  A disponibilidade de dados precisos e atualizados sobre o estoque permitiu que a oficina tomasse decisões mais informadas sobre compras, preços e promoções.</p>
-    </section>
-    
-    <section id="imgs" >
-        <div class="imagens">
-            <div class="imagensdosite" id="foto1"></div>
-            <div class="imagensdosite" id="foto2"></div>
-            <div class="imagensdosite" id="foto3"></div>
-            <div class="imagensdosite" id="foto4"></div>
-            <div class="imagensdosite" id="foto5"></div>
-            <div class="imagensdosite" id="foto6"></div>
-            <div class="imagensdosite" id="foto7"></div>
-            <div class="imagensdosite" id="foto8"></div>
-            <div class="imagensdosite" id="foto9"></div>
-        </div>
-    </section>
-    <section id="conclusao">
-        <h2>Conclusão</h2>
-        <p>
-            O projeto demonstrou a minha capacidade de desenvolver soluções de software sob medida para atender às necessidades específicas de um cliente. Através da combinação de habilidades em design de banco de dados, programação PHP e desenvolvimento de interfaces de usuário, fui capaz de criar um sistema que transformou a forma como a oficina gerencia seu estoque, resultando em maior organização, eficiência e lucratividade.
-        </p>
-    </section>
-</main>
-<footer>
-    &copy; 2024 - Matheus Richard
-</footer>
-<script src="../js/script.js"></script> 
+            <h3>Banco de dados:</h3>
+            <p> -- MongoDB, um banco de dados NoSQL flexível e escalável, ideal para armazenar as informações das peças
+                e do estoque.
+            </p>
+            <h3>Front-end:</h3>
+            <p> -- React, uma biblioteca JavaScript para a criação de interfaces de usuário interativas e responsivas,
+                permitindo que os funcionários da oficina acessem e utilizem o sistema de forma intuitiva.
+            </p>
+            <h3>Comunicação:</h3>
+            <p> -- API RESTful, que permite a comunicação eficiente entre o front-end e o back-end, garantindo a troca
+                de dados em tempo real.
+            </p>
+        </section>
+        <section id="resultado">
+            <h2>Resultado</h2>
+            <h3>Organização:</h3>
+            <p> -- O estoque da oficina foi organizado de forma clara e eficiente, com as peças categorizadas e
+                informações precisas sobre a quantidade disponível.
+            </p>
+            <h3>Eficiência:</h3>
+            <p> -- O tempo gasto na consulta de informações sobre o estoque foi significativamente reduzido, permitindo
+                um atendimento mais ágil e eficiente aos clientes.
+            </p>
+            <h3>Redução de Erros:</h3>
+            <p> -- A substituição do sistema manual por um sistema digital minimizou erros de digitação e cálculo,
+                garantindo a precisão das informações sobre o estoque.
+            </p>
+            <h3>Tomada de Decisão:</h3>
+            <p>-- A disponibilidade de dados precisos e atualizados sobre o estoque permitiu que a oficina tomasse
+                decisões mais informadas sobre compras, preços e promoções.</p>
+        </section>
+
+        <section id="imgs">
+            <div class="imagens">
+                <div class="imagensdosite" id="foto1"></div>
+                <div class="imagensdosite" id="foto2"></div>
+                <div class="imagensdosite" id="foto3"></div>
+                <div class="imagensdosite" id="foto4"></div>
+                <div class="imagensdosite" id="foto5"></div>
+                <div class="imagensdosite" id="foto6"></div>
+                <div class="imagensdosite" id="foto7"></div>
+                <div class="imagensdosite" id="foto8"></div>
+                <div class="imagensdosite" id="foto9"></div>
+            </div>
+        </section>
+        <section id="conclusao">
+            <h2>Conclusão</h2>
+            <p>
+                O projeto demonstrou a minha capacidade de desenvolver soluções de software sob medida para atender às
+                necessidades específicas de um cliente. Através da combinação de habilidades em design de banco de
+                dados, programação PHP e desenvolvimento de interfaces de usuário, fui capaz de criar um sistema que
+                transformou a forma como a oficina gerencia seu estoque, resultando em maior organização, eficiência e
+                lucratividade.
+            </p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 - Matheus Richard
+    </footer>
+    <script src="../js/script.js"></script>
 </body>
-</html> 
+
+</html>
